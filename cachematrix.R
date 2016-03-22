@@ -1,7 +1,7 @@
 ## The functions will compute the inverse of a matrix and cache it,
 ## so that it can be looked up in the cache rather than recomputed.
 
-## makeCacheMatrix function creates a special "matrix" object, containing a function to
+## makeCacheMatrix function creates a special "matrix" object, which is a list containing a function to
 ## 1. Set the value of the matrix
 ## 2. Get the value of the matrix
 ## 3. Set the value of the inverse
